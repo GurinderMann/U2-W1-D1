@@ -34,7 +34,7 @@
         text-transform: capitalize;
         background-color: rgb(169, 169, 169);
     }
-
+  
     section p{
         font-size: 1.4rem;
     }
@@ -49,7 +49,7 @@
         margin-left: 20em;
     }
 }
-@media screen and (max-width:1199px) {
+@media screen and (min-width: 577px) and (max-width: 1199px)  {
     header div p{
         font-size: 1.8rem;
     }
