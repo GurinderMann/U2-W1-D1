@@ -1,0 +1,285 @@
+/* mobile max width 576px */
+
+@media screen and (max-width: 576px){
+
+   header nav li{
+    display: inline;
+    margin-left: 10px;
+   }
+   main img{
+    outline: solid 5px rgb(158, 0, 95);
+    padding: 4px 4px;
+    width: 60px;
+    border: solid rgb(0, 179, 255) 4px;
+    margin-bottom: 10px;
+}
+
+   main p{
+    max-width: 350px;
+   }
+   main li{
+   max-width: 350px;
+  }
+
+    h1{
+       font-size: 3.5rem;
+       max-width: 400px;
+    }
+
+    aside h2{
+        font-size: 2.5rem;
+    }
+   
+    section h2{
+        text-transform: capitalize;
+        background-color: rgb(169, 169, 169);
+    }
+
+    section p{
+        font-size: 1.4rem;
+    }
+    footer{
+        font-size: 1.8rem;
+        height: 200px;
+    }
+    aside div p:last-child {
+        margin-bottom: 0;
+        font-size: 0.8em;
+        text-align: right;
+        margin-left: 20em;
+    }
+}
+@media screen and (max-width:1199px) {
+    header div p{
+        font-size: 1.8rem;
+    }
+    
+    
+    
+    header nav ul {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+      }
+      
+      header nav ul li {
+        font-size: 1.6rem;
+        margin-left: 10px;
+        display: inline;
+      }
+      main img{
+        outline: solid 5px rgb(158, 0, 95);
+        padding: 4px 4px;
+        width: 70px;
+        border: solid rgb(0, 179, 255) 4px;
+        margin-bottom: 10px;
+    }
+    
+      h1{
+        font-size: 5rem;
+        max-width: 500px;
+      }
+      main p{
+        font-size: 1.8rem;
+        max-width: 600px;
+      }
+      main h2{
+        font-weight: bold;
+        font-size: 2.2rem;
+      }  
+      
+      table{
+        margin-top: 4em;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6em;
+    }
+    section h2{
+        text-transform: capitalize;
+        background-color: rgb(169, 169, 169);
+    }
+    section p{
+        font-size: 1.8rem;
+    }
+    input{
+        width: 450px;
+        height: 60px;
+        
+    }
+    button{
+        width: 150px;
+        height: 60px;
+    }
+    aside h2{
+        font-size: 3rem;
+    }
+    aside div p:last-child {
+        margin-bottom: 0;
+        font-size: 0.8em;
+        text-align: right;
+        margin-left: 20em;
+    }
+    footer{
+        font-size: 1.6rem;
+        height: 150px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 1200px;
+    }
+    
+    header {
+      height: 100px;
+      padding: none;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    header div {
+      display: flex;
+      align-items: center;
+    }
+    
+    header div img {
+      max-width: 150px;
+      margin-bottom: 0;
+      display: inline;
+    }
+    
+    header div p {
+      font-size: 1.7rem;
+      display: inline;
+      margin-left: 100px;
+      padding-top: 20px;
+    }
+    
+    header nav {
+      margin-top: 20px;
+    }
+    
+    header nav ul {
+      display: flex;
+      list-style: none;
+    }
+    
+    header nav ul li {
+      font-size: 1.5rem;
+      display: inline;
+      margin-right: 10px;
+    }
+    main img{
+        outline: solid 5px rgb(158, 0, 95);
+        padding: 4px 4px;
+        width: 80px;
+        border: solid rgb(0, 179, 255) 4px;
+        margin-bottom: 10px;
+    }
+
+    h1{
+        font-size: 4.5rem;
+           }
+
+    main p{
+        font-size: 2rem;
+    }
+    main li{
+        margin-bottom: 10px;
+    }
+    main h2{
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+    }
+    main li{
+        font-size: 1.6rem;
+    }
+
+    table{
+        min-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6em;
+    }
+
+    iframe{
+        margin-bottom: 0;
+        display: inline-block;
+        max-width: 500px;
+        height: 150px;
+      
+    }
+    section{
+        
+     border-radius: 20px;
+     width: 500px;
+     display: inline-block;
+    }
+    input{
+        width: 250px;
+        height: 40px;
+        
+    }
+    button{
+        width: 150px;
+        height: 40px;
+    }
+    section h2{
+        text-transform: capitalize;
+        background-color: rgb(169, 169, 169);
+    }
+    aside div{
+        margin-right: -5px;
+        display: inline-block;
+        width: 380px;
+        height: 150px;
+    }
+    aside div p{
+        margin-top: 30px;
+    }
+    footer{
+        font-size: 2.3rem;
+        height: 200px;
+    }
+  }
+
+
+@media print{
+    body{
+        font-size: 2.15rem;
+    }
+    header{
+        display: none;
+    }
+    main img{
+        display: inline-block;
+        outline: solid 5px rgb(158, 0, 95);
+        padding: 4px 4px;
+        width: 60px;
+        border: solid rgb(0, 179, 255) 4px;
+        margin-bottom: 10px;
+    }
+  
+     iframe{
+        display: none;
+     }    
+     section{
+        display: none;
+     }
+     aside {
+        display: none;
+    
+     }
+     thead tr{
+        color: black;
+     }
+     footer{
+        display: none;
+     }
+}
